@@ -1,0 +1,31 @@
+spring:
+  security:
+    user:
+      name: Yugank Sriwastav
+      password: Yuvi7052
+
+#  data:
+#    mongodb:
+#      uri: mongodb+srv://yuganksriwastav552:123Yuvi@yugcluster.8dgusiw.mongodb.net/?retryWrites=true&w=majority&appName=YugCluster
+#      database: Quick-Aid-Compliant
+#      auto-index-creation: true
+  data:
+    mongodb:
+      uri: mongodb+srv://yuganksriwastav552:123Yuvi@yugcluster.8dgusiw.mongodb.net/?appName=YugCluster
+      database: smart-appointment-system
+      auto-index-creation: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: yuganksriwastav552@gmail.com
+    password: "bzfw whti snyu isdw"
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8080
