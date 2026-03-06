@@ -7,6 +7,6 @@ import java.util.Optional;
 public interface PatientRepository extends MongoRepository<AccountHolder, String>
 {
 // findByUserName
-    Optional<AccountHolder> findByUserName(String userName);
+    AccountHolder findByUserName(String userName);
 
 }

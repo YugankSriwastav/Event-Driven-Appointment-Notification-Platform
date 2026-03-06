@@ -18,7 +18,7 @@ public class AccountHolder {
     private Long phoNo;
     @NonNull
     private String gmail;
-    ROLE acHolder;
+    ROLE role;
    public AccountHolder(String userId,
                         String userName,
                         String password)
